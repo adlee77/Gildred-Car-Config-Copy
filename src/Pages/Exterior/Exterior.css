@@ -149,21 +149,21 @@ body {
         height: 172px;
         width: 524px;
         position: relative;
-        left: unset;
-        bottom: unset;
-        top: 8px;
-        right: 566.5px;
+        left: unset !important;
+        bottom: unset !important;
+        top: 8px !important;
+        right: 566.5px !important;
         z-index: 0
     }
     #rim-layer {
-        bottom: 299px;
-        height: 300px;
-        right: 524px;
-        left: unset;
+        bottom: 299px !important;
+        height: 300px !important;
+        right: 524px !important;
+        left: unset !important;
     }
     #opaque {
-        left: unset;
-        bottom: 294px;
+        left: 44px !important;
+        bottom: 291px !important;
     }
 }
 @media only screen and (min-width: 1620px) {
