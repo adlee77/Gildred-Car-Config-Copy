@@ -1,0 +1,270 @@
+body {
+    width: 100%;
+}
+
+.outterRow .col-lg-8 {
+    max-height: 320px;
+}
+
+.row {
+    margin: auto 0;
+}
+.col-md-8 {
+    border-right: solid thin;
+    margin-top: 50px;
+}
+
+.bottom-page {
+    background-color: #333333;
+    width: 100%;
+    position: fixed;
+    padding: 20px;
+    bottom: 0px;
+}
+
+#copyright {
+    color: lightgrey;
+    padding-top: 20px;
+    text-align: center;
+    font-size: small;
+}
+
+#logo {
+    height: 50px;
+    width: 200px;
+}
+.rim-btn {
+    background-color: transparent;
+    border: none;
+    border-radius: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.rim-btn:focus {
+    box-shadow: 0 0 5px blue;
+    outline: none;
+}
+.rim-btn1 {
+    background-color: transparent;
+    border: none;
+    border-radius: 100%;
+    padding: 0;
+}
+.rim-btn1:focus {
+    box-shadow: 0 0 5px blue;
+    outline: none;
+}
+
+#rim2img {
+    height: 80px;
+}
+#rim1img {
+    height: 90px;
+} 
+#rim3img {
+    height: 80px;
+} 
+#rim4img {
+    height: 80px;
+} 
+#rim5img {
+    height: 80px;
+} 
+#colorstitle {
+    margin-top: 50px;
+    font-family: Arial;
+    font-weight: 900;
+}
+
+#colorselect {
+    margin-top: 10px;
+}
+
+#wheeltitle {
+    margin-top: 25px;
+    font-family: Arial;
+    font-weight: 900;
+}
+#wheeloptions {
+    margin-top: 10px;
+    text-align: left;
+}
+
+#wheeloptions .col {
+    padding: 0;
+}
+#wheeloptions2 {
+    text-align: left;
+    margin-bottom: 10px;
+}
+#wheeloptions2 .col {
+    padding: 0;
+}
+#rim6img {
+    height: 100px;
+}
+.rim-btn6:focus {
+    box-shadow: 0 0 5px blue;
+    outline: none;
+}
+.rim-btn6 {
+    background-color: transparent;
+    border: none;
+    border-radius: 100%;
+    padding: 0;
+}
+#car {
+    height: 298px;
+    width: 610px;
+    position: relative;
+    z-index: 10;
+    left: 0px;
+}
+#carBody {
+    height: 172px;
+    width: 524px;
+    position: relative;
+    bottom: 226.6px;
+    left: 44px;
+    z-index: 0
+}
+#rim-layer {
+    position: relative;
+    left: 0px;
+    bottom: 642px;
+    height: 300px;
+    width: 610px;
+    z-index: 20;
+}
+#opaque {
+    z-index: 30;
+    position: relative;
+    bottom: 400px;
+    left: 44px;
+    width: 524px;
+    height: 172px;
+}
+
+@media only screen and (min-width: 1680px) {
+    #carBody {
+        height: 172px;
+        width: 524px;
+        position: relative;
+        top: -227px;
+        z-index: 0
+    }
+    #rim-layer {
+        position: relative;
+        left: 0px;
+        bottom: 470px;
+        height: 300px;
+        width: 610px;
+        z-index: 20;
+    }
+    #opaque {
+        z-index: 30;
+        position: relative;
+        bottom: 225px;
+        right: 480px;
+        left: unset;
+        width: 524px;
+        height: 172px;
+    }
+    #nextbtn {
+        position: relative;
+        top: 200px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    #opaque {
+        position: relative;
+    }
+    #carBody {
+        height: 172px;
+        width: 524px;
+        position: relative;
+        top: -227px;
+        z-index: 0
+    }
+    #wheeltitle, #colorstitle {
+        margin-top: 0px;
+    }
+    #nextbtn {
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    #opaque {
+        position: relative;
+        left: 22px;
+    }
+    #carBody {
+        height: 172px;
+        width: 524px;
+        position: relative;
+        top: -227px;
+        left: 22px;
+        z-index: 0
+    }
+    .col-md-8 {
+        border: none;
+    }
+    #car-container {
+        max-height: 200px;
+    }
+    .col-lg-4 {
+        min-height: 700px;
+    }
+}
+@media only screen and (max-width: 736px) {
+    #car {
+        height: 149px;
+        width: 305px;
+        position: relative;
+        z-index: 10;
+        left: 0px;
+    }
+    #opaque {
+        position: relative;
+        width: 262px;
+        height: 86px;
+        bottom: 199px;
+    }
+    #carBody {
+        height: 86px;
+        width: 262px;
+        position: relative;
+        top: -113px;
+        z-index: 0;
+    }
+    #rim-layer {
+        position: relative;
+        left: 0px;
+        bottom: 320px;
+        height: 150px;
+        width: 305px;
+        z-index: 20;
+    }
+    /* .col-md-8 {
+        border: none;
+    }
+    #colorselect, #colorstitle, #wheeltitle {
+        position: relative;
+        bottom: 300px;
+    }
+    #wheeloptions, #wheeloptions2 {
+        position: relative;
+        bottom: 300px;
+    } */
+}
+
+#nextbtn {
+    color: white;
+    background-color: red;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;  
+} 
