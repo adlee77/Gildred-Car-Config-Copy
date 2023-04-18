@@ -144,7 +144,28 @@ body {
     width: 524px;
     height: 172px;
 }
-
+@media only screen and (min-width: 1740px) {
+    #carBody {
+        height: 172px;
+        width: 524px;
+        position: relative;
+        left: unset;
+        bottom: unset;
+        top: 8px;
+        right: 566.5px;
+        z-index: 0
+    }
+    #rim-layer {
+        bottom: 299px;
+        height: 300px;
+        right: 524px;
+        left: unset;
+    }
+    #opaque {
+        left: unset;
+        bottom: 294px;
+    }
+}
 @media only screen and (min-width: 1620px) {
     #carBody {
         height: 172px;
@@ -172,7 +193,6 @@ body {
     }
     #nextbtn {
         position: relative;
-        top: 200px;
     }
 }
 @media only screen and (max-width: 1024px) {
